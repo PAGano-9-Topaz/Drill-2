@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drill 2</title>
+    <!-- PYTHON -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+<body>
+    <h1>Student profile</h1>
+    <form>
+        <input type="text" id="input1" placeholder="enter name"> <br>
+        <input type="number" id="input2" placeholder="enter age"> <br>
+        <input type="text" id="input3" placeholder="enter school"> <br>
+        <input type="button" value="Generate message" py-click="sample_function">
+    </form>
+    <div id="output"></div>    
+    <py-script src="main.py"></py-script>
+</body>
+</html>
